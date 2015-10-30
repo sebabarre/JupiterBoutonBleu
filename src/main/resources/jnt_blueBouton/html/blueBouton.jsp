@@ -19,5 +19,5 @@
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
 <template:addResources type="css" resources="BlueButtonStyle.css" />
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-<c:set var="link" value="${currentNode.properties['Lien']}"/>
-<a href="${link.node.url}" class="blueBtn">${currentNode.properties['TitreBouton'].string}</a>
+<c:set var="link" value="${currentNode.properties['Lien'].node.url}"/>
+<div class="blueBtn"><a href="${link}">${currentNode.properties['TitreBouton'].string}</a><div>

@@ -1,10 +1,15 @@
 .blueBtn {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blueBtn a{
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   background: #5E87AF;
   padding: 10px 20px 10px 20px;
-  text-decoration: none;
+  text-decoration: none; 	 
 }
 
 .blueBtn:hover {
